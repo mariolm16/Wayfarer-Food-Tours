@@ -1,0 +1,76 @@
+/* body {
+    background-color: #282c34;
+} */
+
+.cityList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: large; 
+    width: 100vw;
+    height: 50vh;
+}
+
+.showCityAll {
+    border: 5px solid #e7ecef;
+    border-radius: 10px;    
+    width: 500px;
+    height: 450px;
+    background-color: #282c34 ;
+    opacity: 90%;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:visited {
+    color:#f05d5e ;
+}
+
+
+.cityListTitle {
+    font-size: 25px;
+    color: whitesmoke;
+    height: auto;
+    width: 100vw;
+}
+
+.createPost {
+    background-color: #f05d5e;
+    height: 150px;
+}
+
+.cityPosts {
+    /* background-color: #41d3bd; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+
+.singleCityPost {
+    border: 15px solid #e7ecef;
+    border-radius: 75px;
+    color: #282c34;
+    padding: 65px;
+    background-color: #f3d34a;
+
+}
+
+.singleCity {
+    color: whitesmoke;
+}
+
+.singleCity img {
+    width: 1000px;
+    height: auto; 
+}
+
+.cityList img {
+    width: 450px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
